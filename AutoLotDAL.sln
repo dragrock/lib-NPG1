@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLotDAL", "AutoLotDAL\AutoLotDAL.csproj", "{C25D4570-3E47-4715-95E5-A3BDDF3B4C60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "datagrigNpg", "..\datagrigNpg\datagrigNpg\datagrigNpg.csproj", "{4AEF7701-C94C-437A-A04D-CD3BA4F690C1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C25D4570-3E47-4715-95E5-A3BDDF3B4C60} = {C25D4570-3E47-4715-95E5-A3BDDF3B4C60}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C25D4570-3E47-4715-95E5-A3BDDF3B4C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C25D4570-3E47-4715-95E5-A3BDDF3B4C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C25D4570-3E47-4715-95E5-A3BDDF3B4C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C25D4570-3E47-4715-95E5-A3BDDF3B4C60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AEF7701-C94C-437A-A04D-CD3BA4F690C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AEF7701-C94C-437A-A04D-CD3BA4F690C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AEF7701-C94C-437A-A04D-CD3BA4F690C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AEF7701-C94C-437A-A04D-CD3BA4F690C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF1F8BAC-B8DE-4033-9095-EB95192E331D}
+	EndGlobalSection
+EndGlobal
